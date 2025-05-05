@@ -22,6 +22,26 @@ This is a basic blockchain implementation written in Java. It demonstrates the c
 5. **Blockchain Integrity**:
    - The blockchain is validated by checking the hashes of each block. If any block is tampered with, the chain will be invalidated.
 
+## 🖼️ Example Output
+
+```plaintext
+   Wallet Balance Before Transaction:
+   Wallet A: 1000.0
+   Wallet B: 0.0
+
+   Transaction: 50.0 from Wallet A to Wallet B
+
+   Mining Block 1...
+   Block #1 added to the chain with hash: 0000a2f34e9...
+
+   Wallet Balance After Transaction:
+   Wallet A: 950.0
+   Wallet B: 50.0
+
+   Blockchain Validity: true
+
+```
+
 ## 📦 Usage
 
 1. **Clone the Repository**:
